@@ -7,6 +7,6 @@ services:
     image: iesgn/gestion:$VERSION_DEPLOY
 
     ports:
-      - '$PORT_DEPLOY:80'
+      - '$PORT_DEPLOY:8000'
     
     restart: always
