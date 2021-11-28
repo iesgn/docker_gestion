@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+
+  gestion:
+    container_name: gestion_gonzalonazareno_org
+    image: iesgn/gestion:$VERSION_DEPLOY
+    ports:
+      - '$PORT_DEPLOY:8000'
+    
+    restart: always
