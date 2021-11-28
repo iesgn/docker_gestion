@@ -1,4 +1,4 @@
-FROM debian
+FROM debian:10
 RUN apt-get update -y && apt-get install -y git python-pip
 RUN git clone https://github.com/josedom24/gestion.git
 WORKDIR gestion
