@@ -4,4 +4,4 @@ db2019.sqlite3
 db.sqlite3
 *.cfg
 build/BD/
-.env
+*/.env
