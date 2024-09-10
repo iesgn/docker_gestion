@@ -4,9 +4,9 @@ services:
 
   gestion:
     container_name: gestion_gonzalonazareno_org
-    image: iesgn/gestion:$VERSION_DEPLOY
+    image: josedom24/gestion:$VERSION_DEPLOY
     volumes:
-      - /opt/gestion/basededatos:/gestion/basededatos
+      - /opt/gestion/basededatos:/usr/share/app/basededatos
     ports:
       - '$PORT_DEPLOY:8000'
     
