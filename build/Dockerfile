@@ -1,4 +1,4 @@
-FROM python:3.12.1-bookworm
+FROM python:3-bookworm
 RUN git clone https://github.com/iesgn/gestion_py3.git /usr/share/app
 WORKDIR /usr/share/app
 RUN pip install --no-cache-dir -r requirements.txt
