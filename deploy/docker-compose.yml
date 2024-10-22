@@ -4,7 +4,7 @@ services:
 
   gestion:
     container_name: gestiona_gonzalonazareno_org
-    image: josedom24/gestiona:$VERSION_DEPLOY
+    image: iesgn/gestiona:$VERSION_DEPLOY
     volumes:
       - /opt/gestion/basededatos:/usr/share/app/basededatos
     ports:
