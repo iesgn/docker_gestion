@@ -7,6 +7,8 @@ services:
     image: iesgn/gestiona:$VERSION_DEPLOY
     volumes:
       - /opt/gestion/basededatos:/usr/share/app/basededatos
+      - /etc/localtime:/etc/localtime:ro
+      - /etc/timezone:/etc/timezone:ro
     ports:
       - '$PORT_DEPLOY:8000'
     
